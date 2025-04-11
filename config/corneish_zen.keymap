@@ -12,7 +12,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping_term_ms = <200>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -26,7 +26,7 @@
 
     macros {
                 c3gr: combo_3_grave {
-                        label = "Combo_3_GRAVE";
+                        display-name = "Combo_3_GRAVE";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
@@ -34,7 +34,7 @@
                 };
                 
                 c3dqt: combo_3_dqt {
-                        label = "Combo_3_DQT";
+                        display-name = "Combo_3_DQT";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
